@@ -1,8 +1,9 @@
 This repository contains the csharp portion of the Apache thrift-0.6.1 
 libraries, along with generated csharp files for scribe.thrift and 
-Facebook's fb303.thrift (Scribe). Together, these libraries provide the 
+Facebook's fb303.thrift. Together, these libraries provide the 
 minimum amount of client code needed to talk to a Scribe server.
 
 Thrift/			The csharp Thrift source taken from the latest thrift-0.6.1 tarball
 Scribe/			The generated code for scribe.thrift and fb303.thrift
 ScribeClientExample/	Some sample code that shows the Scribe client in action
+IDL/			The .thrift files that generate the code in Scribe/
