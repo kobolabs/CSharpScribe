@@ -7,3 +7,14 @@ Thrift/			The csharp Thrift source taken from the latest thrift-0.6.1 tarball
 Scribe/			The generated code for scribe.thrift and fb303.thrift
 ScribeClientExample/	Some sample code that shows the Scribe client in action
 IDL/			The .thrift files that generate the code in Scribe/
+
+
+Generating Classes from .thrift files
+=====================================
+
+A pre-built thrift.exe compiler executable for windows can be found at 
+https://builds.apache.org//job/Thrift-Compiler-Windows/lastSuccessfulBuild/artifact/thrift/ 
+
+Usage:
+
+thrift --gen csharp <your thrift file>
